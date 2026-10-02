@@ -1,0 +1,52 @@
+{
+  "n_gallery": 327,
+  "identification_synthetic_recolor": {
+    "top1": 0.4220183491706848,
+    "top5": 0.9418960213661194,
+    "top10": 0.9816513657569885
+  },
+  "verification": {
+    "synthetic_recolor_pos_vs_colour_matched_neg": {
+      "roc_auc": 0.9943981520448149,
+      "eer": 0.030581039755351647,
+      "tpr_at_1pct_fpr": 0.944954128440367,
+      "n_pos": 327,
+      "n_neg": 327
+    },
+    "synthetic_recolor_pos_vs_random_neg": {
+      "roc_auc": 0.9944916720440665,
+      "eer": 0.032110091743119296,
+      "tpr_at_1pct_fpr": 0.944954128440367,
+      "n_pos": 327,
+      "n_neg": 327
+    },
+    "natural_same_group_vs_colour_matched_neg": {
+      "roc_auc": 0.9897170153124463,
+      "eer": 0.022925764192139764,
+      "tpr_at_1pct_fpr": 0.49344978165938863,
+      "n_pos": 458,
+      "n_neg": 458
+    },
+    "natural_same_group_different_colour_vs_colour_matched_neg": null
+  },
+  "natural_identification_any_colour": {
+    "top1": 0.9781022071838379,
+    "top5": 1.0,
+    "top10": 1.0,
+    "n_queries": 274
+  },
+  "natural_identification_different_colour": null,
+  "different_colour_threshold_hellinger_p75": 1.333929181098938,
+  "efficiency": {
+    "params_million": 24.032577,
+    "embedding_dim": 256,
+    "input": "224x224",
+    "flops_giga_per_image": 8.175321088,
+    "flops_note": "torch FlopCounterMode, multiply-add = 2 FLOPs",
+    "latency_device": "cuda",
+    "latency_precision": "fp32",
+    "latency_ms_batch1": 5.69401741027832,
+    "latency_ms_batch32": 84.88983154296875
+  },
+  "checkpoint": "runs/resnet50/best.pt"
+}

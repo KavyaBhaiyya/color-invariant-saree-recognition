@@ -1,0 +1,66 @@
+{
+  "n_pairs": 10,
+  "gallery_size": 337,
+  "n_distractors": 327,
+  "threshold": 0.4526,
+  "identification": {
+    "top1": {
+      "value": 0.5,
+      "hits": 5,
+      "n_queries": 10,
+      "wilson95": [
+        0.2366,
+        0.7634
+      ]
+    },
+    "top5": {
+      "value": 0.7,
+      "hits": 7,
+      "n_queries": 10,
+      "wilson95": [
+        0.3968,
+        0.8922
+      ]
+    },
+    "top10": {
+      "value": 1.0,
+      "hits": 10,
+      "n_queries": 10,
+      "wilson95": [
+        0.7225,
+        1.0
+      ]
+    }
+  },
+  "colour_distance_hellinger": {
+    "same_design_pairs_median": 0.8601284623146057,
+    "different_design_pairs_median": 0.980326235294342,
+    "note": "if same-design distance is not clearly above ~0, the pairs may not differ much in colour"
+  },
+  "verification": {
+    "positives": {
+      "n": 10,
+      "tpr_at_threshold": 1.0,
+      "wilson95": [
+        0.7225,
+        1.0
+      ],
+      "mean_score": 0.7425749897956848
+    },
+    "cross_design": {
+      "n_neg": 90,
+      "roc_auc": 0.7844444444444445,
+      "fpr_at_threshold": 0.7333333333333333,
+      "mean_neg_score": 0.5642833113670349
+    },
+    "colour_matched": {
+      "n_neg": 10,
+      "roc_auc": 0.92,
+      "fpr_at_threshold": 0.2,
+      "mean_neg_score": 0.2344842404127121
+    }
+  },
+  "warnings": [
+    "n < 30: intervals are very wide, treat as a sanity check only"
+  ]
+}

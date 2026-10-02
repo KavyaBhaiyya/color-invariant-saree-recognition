@@ -1,0 +1,117 @@
+{
+  "counts_by_status": {
+    "ok": 1628,
+    "exact_duplicate": 5
+  },
+  "counts_by_source_status": {
+    "deeplure": {
+      "exact_duplicate": 0,
+      "ok": 165
+    },
+    "patterns": {
+      "exact_duplicate": 5,
+      "ok": 1463
+    }
+  },
+  "folder_labels_top30": [
+    [
+      "train/Banarasi",
+      432
+    ],
+    [
+      "train/Ikat",
+      302
+    ],
+    [
+      "train/Bandhani",
+      277
+    ],
+    [
+      "train/Pichwai",
+      277
+    ],
+    [
+      "handloom_sarees",
+      165
+    ],
+    [
+      "valid/Banarasi",
+      43
+    ],
+    [
+      "valid/Ikat",
+      26
+    ],
+    [
+      "valid/Pichwai",
+      24
+    ],
+    [
+      "valid/Bandhani",
+      22
+    ],
+    [
+      "test/Pichwai",
+      18
+    ],
+    [
+      "test/Bandhani",
+      15
+    ],
+    [
+      "test/Banarasi",
+      14
+    ],
+    [
+      "test/Ikat",
+      13
+    ]
+  ],
+  "n_folder_labels": 13,
+  "image_size_min": 226,
+  "image_size_median_wh": [
+    640.0,
+    640.0
+  ],
+  "n_groups": 614,
+  "n_multi_image_groups": 338,
+  "largest_group_sizes": [
+    7,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "low_texture_images": 9,
+  "split_counts_by_source": {
+    "deeplure": {
+      "test": 29,
+      "train": 122,
+      "val": 14
+    },
+    "patterns": {
+      "test": 298,
+      "train": 1015,
+      "val": 150
+    }
+  },
+  "params": {
+    "root": [
+      "deeplure=/content/deeplure_dataset",
+      "patterns=/content/saree_dataset"
+    ],
+    "out": "work_strict",
+    "min_side": 128,
+    "hamming": 2,
+    "gstd_min": 8.0,
+    "val": 0.1,
+    "test": 0.2,
+    "seed": 0,
+    "workers": 4
+  }
+}

@@ -1,0 +1,6 @@
+design_id,query,true_rank_0based,top1_path,pair_score
+design_01,/content/Ml project/real_pairs/img2 (1).webp,5,/content/Ml project/real_pairs/img9 (1).webp,0.5007641
+design_02,/content/Ml project/real_pairs/img4 (1).webp,6,/content/Ml project/real_pairs/img5 (1).webp,0.57118154
+design_03,/content/Ml project/real_pairs/img6 (1).webp,1,/content/Ml project/real_pairs/img9 (1).webp,0.7755212
+design_06,/content/Ml project/real_pairs/img12 (1).webp,1,/content/Ml project/real_pairs/img15 (1).webp,0.8726415
+design_07,/content/Ml project/real_pairs/img14 (1).webp,5,/content/Ml project/real_pairs/img17 (1).webp,0.67056566
