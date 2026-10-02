@@ -270,7 +270,8 @@ This is only an additional qualitative sanity check and is not included as a for
 Results & Demo
 ## Results & Demo
 
-![Result](./Screenshot%202026-10-02%20020857.png)
+Screenshot 2026-10-02 020857.png
+
 
 ![Result](./Screenshot%202026-10-02%20025030.png)
 
