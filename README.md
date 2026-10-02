@@ -268,8 +268,23 @@ All 15 possible image pairs were manually checked, and the fixed verification th
 This is only an additional qualitative sanity check and is not included as a formal benchmark because the images were not part of a predefined labeled evaluation set.
 
 Results & Demo
-<!-- Add your available project result/proof images below this line. --> <!-- You can add 4–5 images here after pushing the project to GitHub. -->
-Inference
+![Result](Screenshot%202026-10-02%20020857.png)
+
+![Result](Screenshot%202026-10-02%20025030.png)
+
+![Result](Screenshot%202026-10-02%20025117.png)
+
+![Result](Screenshot%202026-10-02%20025130.png)
+
+![Result](Screenshot%202026-10-02%20025138.png)
+
+![Result](Screenshot%202026-10-02%20025145.png)
+
+![Result](Screenshot%202026-10-02%20025156.png)
+
+![Result](Screenshot%202026-10-02%20025213.png)
+
+![Result](Screenshot%202026-10-02%20025222.png)
 
 The trained model supports three main operations:
 
